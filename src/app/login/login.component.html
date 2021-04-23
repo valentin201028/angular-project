@@ -1,0 +1,19 @@
+<h1>LOGIN</h1>
+<form>
+  <div>
+    <label for="nameinput">Name</label><br>
+    <input type="text" class="form-control"
+           name="nameinput" id="nameinput"
+           placeholder="Enter name" [(ngModel)]="name">
+  </div>
+  <div>
+    <label for="passinput">Password</label><br>
+    <input type="password" class="form-control"
+           name="passinput" id="passinput"
+           placeholder="Enter password" [(ngModel)]="password">
+  </div>
+  <div>
+    <button type="submit" class="btn"
+            (click)="check()">SUBMIT</button>
+  </div>
+</form>

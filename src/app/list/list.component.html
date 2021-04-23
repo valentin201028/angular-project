@@ -1,0 +1,23 @@
+
+<button class="btn" routerLink="create"> Add </button>
+<h1>LIST</h1>
+<table class="table" *ngIf="service.adatom">
+  <thead>
+  <th>ID</th>
+  <th>Name</th>
+  <th>Image</th>
+  <th></th>
+  <th></th>
+  </thead>
+  <tbody>
+  <tr *ngFor="let adat of service.adatom">
+    <td>{{adat.idDrink}}</td>
+    <td>{{adat.strDrink}}</td>
+    <td>{{adat.strDrinkThumb}}</td>
+
+    <td><button class="btn_del" (click)="delete(adat)">delete</button></td>
+    <td><button class="btn_upd" routerLink="update" (click)="update(adat)" >update</button></td>
+  </tr>
+  </tbody>
+
+</table>

@@ -1,0 +1,26 @@
+<button class="btn" routerLink="/list" > Listázás </button>
+<h1>UPDATE</h1>
+<form>
+  <div>
+    <label for="idinput">ID</label><br>
+    <input type="number" class="form-control"
+           name="idinput" id="idinput"
+           [(ngModel)]="adat.idDrink" readonly>
+  </div>
+  <div>
+    <label for="nameinput">Name</label><br>
+    <input type="Text" class="form-control"
+           name="nameinput" id="nameinput"
+           [(ngModel)]="adat.strDrink">
+  </div>
+  <div>
+    <label for="imginput">Img</label><br>
+    <input type="Text" class="form-control"
+           name="imginput" id="imginput"
+           [(ngModel)]="adat.strDrinkThumb">
+  </div>
+
+  <button type="submit" class="btn"
+          (click)="update(adat)">SUBMIT</button>
+
+</form>

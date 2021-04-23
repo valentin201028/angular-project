@@ -1,0 +1,26 @@
+form{
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+}
+h1{
+  text-align: center;
+}
+label{
+  font-size: 140%;
+}
+div{
+  padding: 15px;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+button{
+  margin: 20px;
+  padding:10px 20px 10px 20px;
+  background-color: green;
+  color: aliceblue;
+  border-radius: 10px;
+}

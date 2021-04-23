@@ -1,0 +1,33 @@
+form{
+
+}
+h1{
+  text-align: center;
+}
+
+button{
+  margin: 5px;
+  padding:10px 20px 10px 20px;
+  background-color: green;
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+td
+{
+  min-width: 100px;
+  height: 0px;
+  border-bottom: 2px solid gray;
+}
+th{
+  border-bottom: 4px solid gray;
+}
+
+.btn_del
+{
+  background-color: red;
+}
+.btn_upd
+{
+  background-color: orange;
+}
